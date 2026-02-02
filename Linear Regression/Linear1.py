@@ -16,7 +16,7 @@ print(f"Number of training examples is: {m}")
 
 
 
-i = 1 # Change this to 1 to see (x^1, y^1)
+i = 1 # Change this to to see (x^i, y^i)
 
 x_i = x_train[i]
 y_i = y_train[i]
@@ -83,4 +83,5 @@ cost_1200sqft = w * x_i + b
 total_error = compute_cost(x_train, y_train, w, b)
 
 print(f"Error value is for 1200 sq feet {total_error}")
+
 print(f"${cost_1200sqft:.0f} thousand dollars")
